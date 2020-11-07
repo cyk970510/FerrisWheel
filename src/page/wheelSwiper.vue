@@ -3,37 +3,37 @@
     <section class="title">摩天轮修改轮播</section>
     <section class="product__swiper" :style="{transform: `rotate(${roundSwiper}deg)`}">
       <section class="round round0" :style="{transform: `rotate(${roundItemDegArr[0]}deg)`}">
-        <section class="swiper__item swiper__img0 cursor-hand" :style="{transform: `rotate(${-roundItemDegArr[0]}deg)`}">
+        <section class="swiper__item swiper__img0" :style="{transform: `rotate(${-roundItemDegArr[0]}deg)`}">
           <img :class="{'swiper__cur': roundSwiperIndex === 0, 'swiper__curful': roundSwiperIndex === 1 || roundSwiperIndex === 6}" src="@/assets/1.png" alt="">
         </section>
       </section>
       <section class="round round1" :style="{transform: `rotate(${roundItemDegArr[1]}deg)`}">
-        <section class="swiper__item swiper__img1 cursor-hand" :style="{transform: `rotate(${-roundItemDegArr[1]}deg)`}">
+        <section class="swiper__item swiper__img1" :style="{transform: `rotate(${-roundItemDegArr[1]}deg)`}">
           <img :class="{'swiper__cur': roundSwiperIndex === 1, 'swiper__curful': Math.abs(roundSwiperIndex - 1) === 1}" src="@/assets/2.png" alt="">
         </section>
       </section>
       <section class="round round2" :style="{transform: `rotate(${roundItemDegArr[2]}deg)`}">
-        <section class="swiper__item swiper__img2 cursor-hand" :style="{transform: `rotate(${-roundItemDegArr[2]}deg)`}">
+        <section class="swiper__item swiper__img2" :style="{transform: `rotate(${-roundItemDegArr[2]}deg)`}">
           <img :class="{'swiper__cur': roundSwiperIndex === 2, 'swiper__curful': Math.abs(roundSwiperIndex - 2) === 1}" src="@/assets/3.png" alt="">
         </section>
       </section>
       <section class="round round3" :style="{transform: `rotate(${roundItemDegArr[3]}deg)`}">
-        <section class="swiper__item swiper__img3 cursor-hand" :style="{transform: `rotate(${-roundItemDegArr[3]}deg)`}">
+        <section class="swiper__item swiper__img3" :style="{transform: `rotate(${-roundItemDegArr[3]}deg)`}">
           <img :class="{'swiper__cur': roundSwiperIndex === 3, 'swiper__curful': Math.abs(roundSwiperIndex - 3) === 1}" src="@/assets/4.png" alt="">
         </section>
       </section>
       <section class="round round4" :style="{transform: `rotate(${roundItemDegArr[4]}deg)`}">
-        <section class="swiper__item swiper__img4 cursor-hand" :style="{transform: `rotate(${-roundItemDegArr[4]}deg)`}">
+        <section class="swiper__item swiper__img4" :style="{transform: `rotate(${-roundItemDegArr[4]}deg)`}">
           <img :class="{'swiper__cur': roundSwiperIndex === 4, 'swiper__curful': Math.abs(roundSwiperIndex - 4) === 1}" src="@/assets/5.png" alt="">
         </section>
       </section>
       <section class="round round5" :style="{transform: `rotate(${roundItemDegArr[5]}deg)`}">
-        <section class="swiper__item swiper__img5 cursor-hand" :style="{transform: `rotate(${-roundItemDegArr[5]}deg)`}">
+        <section class="swiper__item swiper__img5" :style="{transform: `rotate(${-roundItemDegArr[5]}deg)`}">
           <img :class="{'swiper__cur': roundSwiperIndex === 5, 'swiper__curful': Math.abs(roundSwiperIndex - 5) === 1}" src="@/assets/6.png" alt="">
         </section>
       </section>
       <section class="round round6" :style="{transform: `rotate(${roundItemDegArr[6]}deg)`}">
-        <section class="swiper__item swiper__img6 cursor-hand" :style="{transform: `rotate(${-roundItemDegArr[6]}deg)`}">
+        <section class="swiper__item swiper__img6" :style="{transform: `rotate(${-roundItemDegArr[6]}deg)`}">
           <img :class="{'swiper__cur': roundSwiperIndex === 6, 'swiper__curful': roundSwiperIndex === 0 || roundSwiperIndex === 5}" src="@/assets/7.png" alt="">
         </section>
       </section>
